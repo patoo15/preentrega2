@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/icons8-flor-de-balneario-64.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../stylecss/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Romina Torres cosmetologa Medica</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html"></a>
+        <img src="../img/icons8-flor-de-balneario-64.png" alt="logo" />
+        <h1>Romina Torres cosmetologa</h1>
+        <nav>
+          <ul class="nav__list">
+            <li><a class="nav__link" href="../index.html">Inicio</a></li>
+            <li>
+              <a class="nav__link" href="tratamientos.html">Tratamientos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="depilacion.html">Depilacion</a>
+            </li>
+            <li>
+              <a class="nav__link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a class="nav__link" href="contactenos.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="intro-section">
+      <div class="container">
+        <form class="form" action="">
+          <fieldset>
+            <legend class="legend">Reservas y Consultas</legend>
+            <div class="form__text">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre" />
+              <label for="apellido">Apellido:</label>
+              <input type="text" name="apellido" id="apellido" />
+            </div>
+            <div class="form__text">
+              <label for="correo">Correo Electronico:</label>
+              <input type="text" name="correo" id="correo" />
+            </div>
+            <div class="form__sex">
+              <h5>Sexo:</h5>
+              Hombre
+              <input type="radio" name="sexo" id="hombre" />
+              Mujer
+              <input type="radio" name="sexo" id="mujer" />
+            </div>
+            <div class="form__textarea">
+              <label for="mensaje">Mensaje:</label>
+            </div>
+            <div class="form__textarea">
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form__botom">
+              <input type="submit" value="enviar" />
+              <input type="reset" value="borrar datos" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__">
+        <div class="container">
+          <div class="footer__icon">
+            <div>contactenos</div>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
