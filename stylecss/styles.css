@@ -75,7 +75,7 @@ footer {
 .footer__icon {
   text-align: center;
 }
-.container {
+.containers {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
@@ -95,16 +95,17 @@ footer {
   padding: 2rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
   background: whitesmoke;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 .card.img {
   max-width: 100%;
+  align-self: center;
 }
 .card__container {
-  justify-content: baseline;
-  flex-direction: row;
-  align-items: stretch;
-  order: -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
 }
 /* contactenos*/
 .form {
