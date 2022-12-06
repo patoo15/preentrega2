@@ -14,77 +14,84 @@
   </head>
   <body>
     <header>
-      <div class="containers">
+      <div class="container">
         <a href="index.html"></a>
         <img src="../img/icons8-flor-de-balneario-64.png" alt="logo" />
         <h1>Romina Torres cosmetologa</h1>
-        <nav>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="../index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="tratamientos.html">Tratamientos</a>
-            </li>
-            <li>
-              <a class="nav__link" href="depilacion.html">Depilacion</a>
-            </li>
-            <li>
-              <a class="nav__link" href="nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <a class="nav__link" href="contactenos.html">Contacto</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="depilacion.html">Depilacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactenos.html">Contactenos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
     <main>
-      <section class="card__container">
-        <div class="containers">
+      <section class="container-fluid">
+        <div class="container row">
           <div class="title__tratamientos">Tratamientos</div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/mascarilla.png" alt="mascara facial" />
             <h2 class="card.title">combo 1</h2>
             <p class="card.content">Higiene facial, expoliacion manual, puntas de diamante, mascara, serum, hidratacion y fotoprotector. $1300</p>
           </div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/puntadediam.png" alt="punta de diamante" />
             <h2 class="card.title">combo 2</h2>
             <p class="card.content">Higiene facial, expoliacion manual, puntas de diamante, extracciones manuales, mascara, serum, hidratacion y fotoprotector. $1500</p>
           </div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/peeling.png" alt="peeling quimico" />
             <h2 class="card.title">combo 3</h2>
             <p class="card.content">Higiene facial, expoliacion manual, puntas de diamante, peeling quimico, mascara, serum, hidratacion y fotoprotector. $1700</p>
           </div>
         </div>
       </section>
-      <section class="card__container">
-        <div class="containers">
-          <div class="card">
+      <section class="container-fluid">
+        <div class="container row">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/mesofacial.png" alt="mesoterapia facial" />
             <h2 class="card.title">combo 4</h2>
             <p class="card.content">Mesoterapia facial. $2500</p>
           </div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/mesocorp.png" alt="mesoterapia corporal" />
             <h2 class="card.title">combo 5</h2>
             <p class="card.content">Mesoterapia corporal. $3000</p>
           </div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/dermapen.png" alt="dermapen" />
             <h2 class="card.title">combo 6</h2>
             <p class="card.content">Dermapen. $500</p>
           </div>
-        </div>
-      </section>
-      <section class="card__container">
-        <div class="containers">
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/microblading.png" alt="microblading" />
-            <h2 class="card.title">combo 7</h2>
-            <p class="card.content">Microblading. $6000</p>
+            <div class="intro">
+              <h2 class="card.title">combo 7</h2>
+              <p class="card.content">Microblading. $6000</p>
+            </div>
           </div>
-          <div class="card">
+          <div class="card col-12 col-md-6 col-lg-4">
             <img class="card.img" src="../img/perfilado.png" alt="perfilado de cejas" />
             <h2 class="card.title">combo 8</h2>
             <p class="card.content">Diseño y perfilado de cejas. $500</p>
@@ -94,7 +101,7 @@
     </main>
     <footer>
       <div class="footer__">
-        <div class="containers">
+        <div class="container">
           <div class="footer__icon">
             <div>contactenos</div>
             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>

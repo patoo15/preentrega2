@@ -2,24 +2,50 @@
   margin: 0;
   padding: 0;
 }
-html {
-  font-size: 62.5%;
-}
 .nav__list {
   list-style-type: none;
   display: flex;
   margin: 1rem;
   justify-content: space-between;
 }
+.navbar {
+  padding: 2rem;
+  background-color: #60bc04;
+  margin: 1rem;
+  grid-area: nav;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navbar ul li a:hover {
+  background: #036b24;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
 body {
   font-family: "merriweather", sans-serif;
+  margin: 0;
 }
 header {
   background-color: #60bc04;
   padding: 0.5rem 0;
 }
-#intro-section {
-  padding-top: 8rem 0 0 0;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .nav__link {
   color: black;
@@ -28,7 +54,7 @@ header {
   font-weight: 700;
 }
 img {
-  max-width: 100%;
+  max-width: 85%;
 }
 .title {
   text-transform: capitalize;
@@ -49,14 +75,10 @@ img {
 body {
   background-color: antiquewhite;
 }
-.img__piel {
-  height: 400px;
-  position: relative;
-  left: 100px;
-}
-.img__cos {
-  position: relative;
-  left: 250px;
+@media screen and(max-width:800px) {
+  .img__piel {
+    width: 300px;
+  }
 }
 footer {
   background-color: black;
@@ -75,11 +97,6 @@ footer {
 .footer__icon {
   text-align: center;
 }
-.containers {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-}
 /* comienza pag tratatamientos*/
 .title__tratamientos {
   text-transform: capitalize;
@@ -89,23 +106,34 @@ footer {
   text-align: center;
 }
 .card {
-  margin: 2.5rem;
-  max-width: 25%;
-  height: 30%;
+  margin: 1rem;
   padding: 2rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
   background: whitesmoke;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  overflow: hidden;
+  transition: transform 500ms ease;
 }
+/*.intro {
+   box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, 0.5);
+  color: white;
+  bottom: 240px;
+}*/
 .card.img {
   max-width: 100%;
   align-self: center;
 }
-.card__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+.card.content {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  transform: translateY(65%);
+  transition: transform 500ms ease;
+}
+.card:hover .card.content {
+  transform: translateY(0);
+  transition-delay: 500ms;
 }
 /* contactenos*/
 .form {

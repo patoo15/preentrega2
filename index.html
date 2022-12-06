@@ -14,37 +14,62 @@
   </head>
   <body>
     <header>
-      <div class="containers">
+      <div class="container">
         <a href="index.html">
           <img src="./img/icons8-flor-de-balneario-64.png" alt="logo" />
         </a>
         <h1>Romina Torres cosmetologa</h1>
-        <nav>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="./pages/tratamientos.html">Tratamientos</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./pages/depilacion.html">Depilacion</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./pages/nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./pages/contactenos.html">Contacto</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/tratamientos.html">Tratamientos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/depilacion.html">Depilacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contactenos.html">Contactenos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
     <main>
-      <section id="intro-section">
-        <div class="containers">
+      <section>
+        <div class="container">
           <h2 class="title">Cuida Tu Piel</h2>
+          <div id="carousel-index" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/piel.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./img/piel2.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-index" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-index" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
           <div>
-            <img class="img__piel img-fluid" src="./img/piel.png" alt="diferencia de piel" />
-            <img class="img__piel img-fluid" src="./img/piel2.png" alt="espalda" />
             <p class="cont">tu piel es el organo mas grande de tu cuerpo</p>
           </div>
           <div>
@@ -59,7 +84,7 @@
     </main>
     <footer>
       <div class="footer__">
-        <div class="containers">
+        <div class="container-fluid">
           <div class="footer__icon">
             <div>contactenos</div>
             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
