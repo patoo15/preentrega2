@@ -1,0 +1,26 @@
+#container__table {
+  margin: 200px auto;
+  width: 100%;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+table {
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 20px;
+  border-collapse: collapse;
+}
+th {
+  background-color: #246355;
+  border-bottom: solid 5px #0f362d;
+  color: white;
+}
+tr {
+  border-bottom: solid 1px gray;
+}

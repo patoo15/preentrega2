@@ -1,0 +1,18 @@
+.cont__bio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .bioImg {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+  }
+}
+@media (min-width: 807px) {
+  #p__bio {
+    font-size: 24px;
+  }
+}

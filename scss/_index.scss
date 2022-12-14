@@ -1,0 +1,92 @@
+/*NAV HEADER Y BODY GENERAL*/
+.navbar {
+  padding: 1.5rem;
+  background-color: #60bc04;
+  margin: 1rem;
+
+  ul {
+    list-style: none;
+    li {
+      margin-right: 1rem;
+      a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+        &:hover {
+          background: #036b24;
+        }
+      }
+    }
+  }
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  font-family: "merriweather", sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+}
+header {
+  background-color: #60bc04;
+  padding: 0.5rem 0;
+}
+#logo {
+  width: 10%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: black;
+}
+.footer__ {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  a {
+    color: white;
+    i {
+      font-size: 2rem;
+    }
+  }
+}
+.footer__icon {
+  text-align: center;
+}
+/*INDEX*/
+img {
+  width: 100%;
+}
+.title {
+  text-transform: capitalize;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+.cont {
+  text-transform: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  img {
+    width: 75%;
+  }
+}

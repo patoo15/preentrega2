@@ -2,12 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.nav__list {
-  list-style-type: none;
-  display: flex;
-  margin: 1rem;
-  justify-content: space-between;
-}
 .navbar {
   padding: 2rem;
   background-color: #60bc04;
@@ -47,12 +41,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-.nav__link {
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-}
 img {
   max-width: 85%;
 }
@@ -72,9 +60,7 @@ img {
   text-align: center;
   padding: 1rem;
 } /* segundo texto del index*/
-body {
-  background-color: antiquewhite;
-}
+
 footer {
   background-color: black;
 }

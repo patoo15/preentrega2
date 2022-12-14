@@ -1,0 +1,54 @@
+.form {
+  max-width: 100%;
+  padding: 5rem;
+  margin: 5rem;
+  background-color: rgb(225, 222, 222);
+  border-color: black;
+  border-style: double;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.legend {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.form__text {
+  display: flex;
+  flex-wrap: wrap;
+}
+#nombre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+#apellido {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+#mensaje {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+.form__botom {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.form__sex {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+#correo {
+  width: 100%;
+}
+@media (max-width: 770px) {
+}

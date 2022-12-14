@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAV HEADER Y BODY GENERAL*/
+.navbar {
+  padding: 1.5rem;
+  background-color: #60bc04;
+  margin: 1rem;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  margin-right: 1rem;
+}
+.navbar ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navbar ul li a:hover {
+  background: #036b24;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "merriweather", sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: #60bc04;
+  padding: 0.5rem 0;
+}
+
+#logo {
+  width: 10%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer__ {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer__ a {
+  color: white;
+}
+.footer__ a i {
+  font-size: 2rem;
+}
+
+.footer__icon {
+  text-align: center;
+}
+
+/*INDEX*/
+img {
+  width: 100%;
+}
+
+.title {
+  text-transform: capitalize;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cont {
+  text-transform: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 75%;
+  }
+}
+.title__tratamientos {
+  text-transform: capitalize;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card {
+  height: 250px;
+  width: 300px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+.card p {
+  font-size: 15px;
+  margin: 10px;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+}
+.card .intro {
+  height: 70px;
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(27, 27, 27, 0.5);
+  color: white;
+  transition: 0.8s;
+}
+.card img {
+  height: 250px;
+  width: 290px;
+  border-radius: 3px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .intro {
+  height: 0;
+  bottom: 200px;
+  background: black;
+}
+.card:hover p {
+  opacity: 1;
+  visibility: visible;
+  background: rgba(27, 27, 27, 0.5);
+}
+.card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.card.title {
+  margin: 10px;
+  font-size: 40px;
+}
+
+#container__table {
+  margin: 200px auto;
+  width: 100%;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #246355;
+  border-bottom: solid 5px #0f362d;
+  color: white;
+}
+
+tr {
+  border-bottom: solid 1px gray;
+}
+
+.cont__bio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cont__bio .bioImg {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cont__bio p {
+  text-align: center;
+}
+
+@media (min-width: 807px) {
+  #p__bio {
+    font-size: 24px;
+  }
+}
+.form {
+  max-width: 100%;
+  padding: 5rem;
+  margin: 5rem;
+  background-color: rgb(225, 222, 222);
+  border-color: black;
+  border-style: double;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.legend {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.form__text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nombre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+#apellido {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+#mensaje {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.form__botom {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.form__sex {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+#correo {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
